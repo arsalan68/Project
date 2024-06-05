@@ -85,7 +85,7 @@ const Navbar = () => {
                 </nav>
             </div>
 
-            <nav className="navbar navbar-expand-lg bg-white w-auto ">
+            <nav className="navbar navbar-expand-lg navbar-light bg-white w-auto ">
                 <div className="container-fluid d-flex justify-content-between">
                     <div className='navbar-brand w-auto mx-5'>
                         <img src="https://www.ourstaging.in/wp-content/uploads/2024/04/fs-logo.png" className="img-fluid" style={{ width: '5rem' }} alt="..." />
