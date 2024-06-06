@@ -33,7 +33,7 @@ const Navbar = () => {
                     <div className="navbar3 collapse navbar-collapse" id="navbarTogglerDemo01">
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0 gap-3 w-auto mx-5 px-3">
                             <li className="navHover nav-item">
-                                <Link className="nav-link active" aria-current="page" href="#"><h6>Home</h6></Link>
+                                <Link className="nav-link active" aria-current="page" href="#"><h6 className='active' style={{color:"blue"}}>Home</h6></Link>
                             </li>
                             <li className="navHover nav-item">
                                 <Link className="nav-link" href="#"><h6>About Us</h6></Link>
