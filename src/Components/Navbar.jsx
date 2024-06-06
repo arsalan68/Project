@@ -15,79 +15,12 @@ const Navbar = () => {
         return () => window.removeEventListener('scroll', onScroll);
     }, [offset]);
     return (
-        <div>
-            <div>
-                <nav className="navbar1">
-                    <ul className="navbarUl">
-                        <li className="">
-                            <h6 className="">
-                                <MdEmail /> <small>fahimshakir786@gmail.com</small>
-                            </h6>{" "}
-                        </li>
-                        <li className="">
-                            <h6 className="">
-                                <MdEmail /> <small>fahim.shakir40</small>
-                            </h6>{" "}
-                        </li>
-                        <li className="">
-                            <h6 className="">
-                                <MdOutlineWifiCalling3 />
-                                <small> 09718925775</small>
-                            </h6>
-                        </li>
-                        <li className="">
-                            <h6 className="">
-                                <SiWhatsapp /> <small> 09268751849</small>
-                            </h6>
-                        </li>
-                    </ul>
+        <div className='navbarMain'>
+          
+           <Navtop/>
+        
 
-
-
-                    <ul className="navUl2">
-                        <li className="">
-                            <h6 className="follow">Follow Us:</h6>
-                        </li>
-                        <li className="nav2">
-                            <h6 className="">
-                                <CiFacebook />
-                            </h6>
-                        </li>
-                        <li className="nav2">
-                            <h6 className="">
-                                <IoLogoPinterest />
-                            </h6>
-                        </li>
-                        <li className="nav2">
-                            <h6 className="">
-                                <BsTwitterX />
-                            </h6>
-                        </li>
-                        <li className="nav2">
-                            <h6 className="">
-                                <FaLinkedinIn />
-                            </h6>
-                        </li>
-                        <li className="nav2">
-                            <h6 className="">
-                                <FaInstagram />
-                            </h6>
-                        </li>
-                        <li>
-                            <h6 className="nav2">
-                                <FaGithub />
-                            </h6>
-                        </li>
-                        <li className="nav2">
-                            <h6 className="">
-                                <RiGooglePlayLine />
-                            </h6>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-
-            <nav className="navbar navbar-expand-lg bg-white w-auto ">
+            <nav className="navbar navbar-expand-lg navbar-light bg-white w-auto">
                 <div className="container-fluid d-flex justify-content-between">
                     <div className='navbar-brand w-auto mx-5'>
                         <img src="https://www.ourstaging.in/wp-content/uploads/2024/04/fs-logo.png" className="img-fluid" style={{ width: '5rem' }} alt="..." />
