@@ -12,7 +12,8 @@ const Footer = () => {
                             <div className="col-md-4  p-0">
                                 <div className='ulPages mt-5'>
                                     <img src="https://www.ourstaging.in/wp-content/uploads/2024/04/fs-logo.png" className="img-fluid " alt="" />
-                                    <p className='mt-3 w-75'>My name is Fahim Shakir.In the discipline of Web Development and Design I am full stack prominent as PHP Programmer/ WebDeveloper/ Web Freelancer. I am reputated by my outstanding work, excellent programming skills and versatile nature of program coding with Software and Website Development.I am full stack developed many web based applications. I am persistent in developing the web application as well as dynamic websites</p>
+                                    <p className='mt-3 w-75'>My name is Fahim Shakir.In the discipline of Web Development and Design I am full stack prominent as PHP Programmer/ WebDeveloper/ Web Freelancer. I am reputated by my outstanding work, excellent programming skills and versatile nature of program coding with Software and Website Development.I am full stack developed many web based applications. I am persistent in developing the web application as well as dynamic websites <Link>Read more</Link></p>
+                                    
                                 </div>
                             </div>
                             <div className="col-md-2">
