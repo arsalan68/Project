@@ -24,7 +24,7 @@ const Home = () => {
             </div>
 
             <div className="marquee">
-                <div className="marquee-content"> WordPress Development IT Solution Woocommerce Development Woocommerce Development Magento Development Joomla Development PHP Development 3rd Party APIs Integration </div>
+                <div className="marquee-content"> <small> WordPress Development IT Solution Woocommerce Development Woocommerce Development Magento Development Joomla Development PHP Development 3rd Party APIs Integration </small> </div>
             </div>
 
 

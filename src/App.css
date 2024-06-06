@@ -5,7 +5,7 @@
 
   width: 85%;
   margin: auto;
- 
+
 }
 
 .card {
@@ -20,7 +20,7 @@
 }
 
 .card:hover {
-  background-color:rgba(53, 53, 235, 0.826);
+  background-color: rgba(53, 53, 235, 0.826);
   color: white;
   transform: scale(1.05);
 }
@@ -29,8 +29,10 @@
 .slick-next:before {
   color: #000;
 }
+
 .slick-slide {
-  padding: 0 20px; /* Adjust the padding for gap between slides */
+  padding: 0 20px;
+  /* Adjust the padding for gap between slides */
   margin-bottom: 100px;
 }
 
@@ -61,13 +63,14 @@
 
 }
 
-.navbar.show{
+.navbar.show {
   position: fixed;
-  top:40px;
+  top: 40px;
   right: 0;
   left: 0;
   z-index: 99999;
 }
+
 .navUl2 {
   display: flex;
   gap: 1.7vw;
@@ -95,6 +98,7 @@
     display: none;
   }
 }
+
 .Pagebackground {
   height: 100%;
   width: 100%;
@@ -180,18 +184,22 @@
   color: white;
   text-decoration: none;
 }
-.hack:hover{
+
+.hack:hover {
   color: rgb(95, 8, 177);
   margin-left: 3px;
 }
+
 .navHover .nav-link {
   transition: color 0.3s ease;
   color: #000;
 }
+
 .navHover .nav-link:hover {
   color: red;
   margin-left: 3px;
 }
+
 .bgPages {
   height: 100%;
   width: 100%;
@@ -220,17 +228,20 @@
   height: 100%;
   object-fit: cover;
 }
-.navbarMain{
+
+.navbarMain {
   position: fixed;
   top: 0px;
   left: 0;
   right: 0;
   z-index: 999999;
 }
-.navHover a h6:hover{
+
+.navHover a h6:hover {
   color: blue;
 }
-.book{
+
+.book {
 
   height: 350px;
   /* background-color: firebrick; */
@@ -239,18 +250,21 @@
   align-items: center;
   margin-top: 100px;
 }
-.booxBox{
+
+.booxBox {
   width: 300px;
   height: 250px;
   background-color: yellow;
   overflow: scroll;
 }
-.booxBox img{
+
+.booxBox img {
   width: 100%;
   height: 100%;
   object-fit: cover;
- 
+
 }
+
 .booxBox::-webkit-scrollbar {
   display: none;
 }
