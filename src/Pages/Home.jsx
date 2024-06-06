@@ -1,7 +1,8 @@
 import React from 'react'
 import Footer from './Footer'
 import Card from './Card'
-
+import { BsGraphUpArrow } from "react-icons/bs";
+import { SiTransmission } from "react-icons/si";
 const Home = () => {
     return (
         <>
@@ -49,11 +50,11 @@ const Home = () => {
                         <div className="row mt-4  mx-5">It is a long established fact that a reader will be distracted the readable content of a page when looking at layout the point.</div>
                         <div className="row mt-4  mx-5">
                             <div className="col">
-                                <h3>Problem Solving</h3>
-                                <p>Aliquam erat volutpat Nullam imperdiet</p>
+                                <h3><BsGraphUpArrow/> Problem Solving</h3>
+                                <p> Aliquam erat volutpat Nullam imperdiet</p>
                             </div>
                             <div className="col">
-                                <h3>Mission & Vision</h3>
+                                <h3><SiTransmission/> Mission & Vision</h3>
                                 <p>Aliquam erat volutpat Nullam imperdiet</p>
                             </div>
 

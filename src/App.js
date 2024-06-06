@@ -7,7 +7,10 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
+        <div style={{height:"100px"}}>
         <Navbar />
+        </div>
+
         <Routes>
           <Route path='/' element={<Home/>}/>
         </Routes>
