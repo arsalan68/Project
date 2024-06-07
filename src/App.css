@@ -48,7 +48,7 @@
 }
 
 .navbarUl li small:hover {
-  color: rgb(95, 8, 177);
+  color: blue;
 }
 
 .navbar1 {
@@ -79,7 +79,7 @@
 }
 
 .nav2:hover {
-  color: rgb(95, 8, 177);
+  color: blue;
 }
 
 @media only screen and (max-width:1071px) {
