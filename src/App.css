@@ -2,27 +2,27 @@
 @import "~slick-carousel/slick/slick-theme.css";
 
 .card-slider {
-
   width: 85%;
   margin: auto;
-
 }
 
 .card {
   background: white;
-  border-radius: 10px;
-  height: 350px;
+  /* border-radius: 10px; */
+  /* height: 300px; */
+  width: 200px;
   margin-top: 40px;
-  padding: 20px;
-  text-align: center;
+  padding: 12px;
+  /* text-align: center; */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s;
+
 }
 
 .card:hover {
   background-color: rgba(53, 53, 235, 0.826);
   color: white;
-  transform: scale(1.05);
+  /* transform: scale(1.05); */
 }
 
 .slick-prev:before,
@@ -31,7 +31,7 @@
 }
 
 .slick-slide {
-  padding: 0 20px;
+  padding: 0 10px;
   /* Adjust the padding for gap between slides */
   margin-bottom: 100px;
 }
@@ -250,7 +250,6 @@
   align-items: center;
   margin-top: 100px;
 }
-
 .booxBox {
   width: 300px;
   height: 250px;
@@ -262,9 +261,13 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-
 }
-
 .booxBox::-webkit-scrollbar {
   display: none;
+}
+.lol{
+  font-size: 19px;
+}
+.content-para{
+  font-size: 13px;
 }
