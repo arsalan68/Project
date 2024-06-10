@@ -6,13 +6,13 @@ const Card = () => {
         // dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 3,
+        slidesToShow: 4,
         slidesToScroll: 1,
         responsive: [
             {
                 breakpoint: 1024,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 4,
                     slidesToScroll: 1,
                     infinite: true,
                     // dots: true
@@ -37,12 +37,12 @@ const Card = () => {
     };
 
     const cards = [
-        { title: 'Web Designing', content: 'Most of us think that Web Designing is a normal Designing process but i...', button: 'Read more',src:'https://www.ourstaging.in/wp-content/uploads/2024/04/template.svg'},
-        { title: 'Website Maintenance', content: 'We make the sure website is update in backed up regularly...', button: 'Read more',src:'https://www.ourstaging.in/wp-content/uploads/2024/04/maintainance.png' },
-        { title: 'Website Launch', content: 'After launch we monitor the website for next to monthes free...', button: 'Read more',src:'https://www.ourstaging.in/wp-content/uploads/2024/04/launch.png' },
-        { title: 'Website Testing', content: 'Our QA team test the website in real online environment across all...', button: 'Read more',src:'https://www.ourstaging.in/wp-content/uploads/2024/04/testing.png' },
-        { title: 'Web Development', content: 'Our web development team then convert these designs into fully...', button: 'Read more',src:'https://www.ourstaging.in/wp-content/uploads/2024/04/development.png' },
-        { title: 'Search Engine Optimization', content: 'SEO, one of those things that those of us in the web design...', button: 'Read more',src:'https://www.ourstaging.in/wp-content/uploads/2024/04/feature3.png' }
+        { title: 'Web Designing', content: 'Most of us think that Web Designing is a normal Designing process but i...', button: 'Read more', src: 'https://www.ourstaging.in/wp-content/uploads/2024/04/template.svg' },
+        { title: 'Website Maintenance', content: 'We make the sure website is update in backed up regularly...', button: 'Read more', src: 'https://www.ourstaging.in/wp-content/uploads/2024/04/maintainance.png' },
+        { title: 'Website Launch', content: 'After launch we monitor the website for next to monthes free...', button: 'Read more', src: 'https://www.ourstaging.in/wp-content/uploads/2024/04/launch.png' },
+        { title: 'Website Testing', content: 'Our QA team test the website in real online environment across all...', button: 'Read more', src: 'https://www.ourstaging.in/wp-content/uploads/2024/04/testing.png' },
+        { title: 'Web Development', content: 'Our web development team then convert these designs into fully...', button: 'Read more', src: 'https://www.ourstaging.in/wp-content/uploads/2024/04/development.png' },
+        { title: 'Search Engine Optimization', content: 'SEO, one of those things that those of us in the web design...', button: 'Read more', src: 'https://www.ourstaging.in/wp-content/uploads/2024/04/feature3.png' }
     ];
 
 
@@ -59,9 +59,9 @@ const Card = () => {
                     <Slider {...settings}>
                         {cards.map((card, index) => (
                             <div key={index} className="card">
-                            <img src={card.src} alt="" height={'100px'} width={'100px'} />
-                                <h3 className='mt-5'>{card.title}</h3>
-                                <p>{card.content}</p>
+                                <img src={card.src} alt="" height={'100px'} width={'80 px'} />
+                                <h3 className='mt-5 lol'>{card.title}</h3>
+                                <p className='content-para'>{card.content}</p>
                                 <p>{card.button}</p>
                             </div>
                         ))}
