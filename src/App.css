@@ -40,7 +40,7 @@
   display: flex;
   list-style: none;
   gap: 2vw;
-  margin-top: 15px;
+  margin-top: 20px;
 }
 
 .navbarUl li {
@@ -55,12 +55,12 @@
   display: flex;
   background-color: rgb(37, 35, 35);
   color: white;
-  padding: 0 4vw;
+  padding: 0 5vw;
+  font-family: 'Times New Roman', Times, serif;
   height: max-content;
   justify-content: space-between;
   align-items: center;
   height: 40px;
-
 }
 
 .navbar.show {
@@ -75,11 +75,11 @@
   display: flex;
   gap: 1.7vw;
   list-style: none;
-  margin-top: 15px;
+  margin-top: 20px;
 }
 
 .nav2:hover {
-  color: blue;
+  color: rgb(34, 34, 236);
 }
 
 @media only screen and (max-width:1071px) {
@@ -122,6 +122,13 @@
   display: inline-block;
   padding-left: 100%;
   animation: marquee 30s linear infinite;
+  margin-bottom: 2px;
+  font-stretch: narrower;
+  font: optional;
+  /* font-variant: small-caps; */
+  white-space-collapse: collapse;
+  text-wrap: nowrap;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 @keyframes marquee {
